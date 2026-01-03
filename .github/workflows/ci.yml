@@ -40,3 +40,6 @@ jobs:
 
       - name: Style Format Check
         run: npm run format:check
+
+      - name: Linting
+        run: npm run lint
